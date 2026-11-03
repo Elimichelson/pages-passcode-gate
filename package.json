@@ -1,0 +1,18 @@
+{
+  "name": "pages-passcode-gate",
+  "version": "0.1.0",
+  "description": "A fail-closed passcode gate for Cloudflare Pages: keep a static site private on the free plan, installable on an iPhone home screen.",
+  "license": "MIT",
+  "type": "module",
+  "main": "src/index.ts",
+  "files": ["src"],
+  "keywords": ["cloudflare", "cloudflare-pages", "pages-functions", "password", "passcode", "private", "pwa", "middleware"],
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "6.0.3",
+    "vitest": "5.0.2"
+  }
+}
